@@ -1,0 +1,14 @@
+sudo apt-get update
+sudo apt-get upgrade
+# install pip and pip3
+sudo apt-get install python-pip python3-pip
+# install some tools
+sudo apt-get install build-essential zip unzip curl
+# install Java
+sudo apt-get install openjdk-11-jdk
+
+wget https://github.com/bazelbuild/bazel/releases/download/3.7.2/bazel-3.7.2-dist.zip
+unzip -d bazel bazel-3.7.2-dist.zip
+cd bazel
+
+
